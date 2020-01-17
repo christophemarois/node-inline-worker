@@ -22,6 +22,8 @@ npm install --save node-inline-worker
 Pass a function to be executed in the Worker thread
 
 ```javascript
+const workerize = require('node-inline-worker')
+
 const add = workerize(async (a, b) => {
   await new Promise(resolve => setTimeout(resolve, 1000))
   return a + b
