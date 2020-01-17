@@ -1,0 +1,27 @@
+{
+  "name": "node-inline-worker",
+  "version": "1.0.0",
+  "description": "Seamless workers for Node.js",
+  "main": "index.js",
+  "engines": {
+    "node" : ">=10.5.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophemarois/node-inline-worker.git"
+  },
+  "keywords": [
+    "nodejs",
+    "worker",
+    "async"
+  ],
+  "author": "Christophe Marois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophemarois/node-inline-worker/issues"
+  },
+  "homepage": "https://github.com/christophemarois/node-inline-worker#readme"
+}
