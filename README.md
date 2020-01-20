@@ -2,6 +2,8 @@
 
 > Moves a node module into a Node.js Worker, automatically reflecting exported functions as asynchronous proxies.
 
+[Dev.to Article](https://dev.to/christophemarois/seamless-workers-for-node-js-213)
+
 You might already be familiar with the [Workerize](https://github.com/developit/workerize) npm package, which is the web counterpart for this module. The feature list and API are the same:
 
 * Bundles a tiny, purpose-built RPC implementation into your node app
